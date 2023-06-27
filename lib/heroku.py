@@ -5,7 +5,7 @@ import logging
 
 
 def set_config(heroku_app: str, var: str, value: str):
-    logging.debug(f"Setting Heroku app {heroku_app=} config variable {var=}")
+    print(f"Setting Heroku app {heroku_app=} config variable {var=}")
     heroku_conn = heroku3.from_key(getenv("HEROKU_API_KEY"))
     current_app = heroku_conn.apps()[heroku_app]
     config = current_app.config()
