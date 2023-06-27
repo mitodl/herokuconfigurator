@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+
+from lib.heroku import configure_heroku_from_yaml
+import os
+
+
+print(os.getcwd())
+configure_heroku_from_yaml("heroku_configs.yml")
+
