@@ -13,3 +13,6 @@ configurables:
   WOW_I_HATE_YAML: 'It is an escaping purgatory'
   LOW_GRADE_PANIC: 'Fnord.'
 ```
+
+This resource requires the HEROKU_API_KEY system
+environment variable to contain a valid Heroku API key.
