@@ -6,5 +6,3 @@ CMD ["/bin/sh"]
 
 COPY bin/* /opt/resource/
 COPY lib/* /opt/resource/lib/
-
-

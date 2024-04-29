@@ -3,4 +3,3 @@
 from lib.heroku import configure_heroku_from_yaml
 
 configure_heroku_from_yaml("heroku_configs.yml")
-
